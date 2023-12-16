@@ -1,0 +1,25 @@
+.box button {
+	border: 1px solid #2136f5;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+	/*background-color: #ff4b2b;*/
+	color: #f8f9fb;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 30px;
+	letter-spacing: 1px;
+	align-items: center;
+}
+button h4 {
+	color: #030303d2;
+}
+.box2 {
+	border: 3px solid red;
+	width: 20rem;
+	height: 20rem;
+	position: absolute;
+	text-align: center;
+	align-items: center;
+	position: relative;
+}

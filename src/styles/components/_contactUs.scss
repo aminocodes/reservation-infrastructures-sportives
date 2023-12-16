@@ -1,0 +1,44 @@
+.contacter {
+	background: #eee;
+	text-align: center;
+	align-content: center;
+	padding: 3.5rem 0;
+	height: 38rem;
+}
+
+.contacter h1 {
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+	color: #2b8eff;
+}
+
+.input4 {
+	height: 21.5rem;
+}
+
+.input4 input {
+	border-radius: 0.3rem;
+	margin: 1rem 2.5rem;
+	width: 15rem;
+	height: 3.3rem;
+	padding-left: 1.3rem;
+}
+/*.input4 .msg {
+
+  position:absolute;
+  left:22rem;
+  right:0;
+  width:35rem;
+  padding-bottom:7rem;
+  padding-top:1.5rem;
+
+}*/
+
+.input4 .msg {
+	width: 35rem;
+	padding-bottom: 7rem;
+	padding-top: 1.5rem;
+}
+.contact {
+	cursor: pointer;
+}

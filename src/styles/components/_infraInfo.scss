@@ -1,0 +1,146 @@
+.infrainfo {
+	&__details {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+		height: 15rem;
+		text-align: center;
+		& > h2 {
+			color: var(--primary-color-1);
+			font-weight: 600;
+		}
+		& > p {
+			font-size: 1.5rem;
+			font-weight: 500;
+		}
+	}
+	&__all {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	&__one,
+	&__two {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__one > p,
+	&__two > p {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-weight: 400;
+		margin-top: 1rem;
+		font-size: 1.2rem;
+	}
+}
+.button {
+	&__login {
+		color: #fff;
+		border: 1px solid #2b8eff;
+		background-color: transparent;
+		width: 7rem;
+	}
+}
+.reservation {
+	height: 35rem;
+	background-color: #313a43;
+	text-align: center;
+	color: white;
+	overflow: hidden;
+
+	&__rules {
+		text-align: left;
+		margin-top: 2rem;
+	}
+	&__rules ul {
+		list-style: none;
+	}
+	&__infos {
+		height: 4rem;
+		width: 45rem;
+		background-color: #fff;
+		margin: 0 auto;
+		border-radius: 5px;
+		color: #000;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__first {
+		display: flex;
+		margin-right: 2rem;
+		align-items: center;
+		& > p {
+			margin-bottom: 0;
+			margin-left: 1rem;
+		}
+		& > label {
+			font-weight: bold;
+			margin-bottom: 0 !important;
+			margin-right: 1rem;
+		}
+		& > input {
+			font-weight: 100;
+		}
+	}
+	&__second {
+		display: flex;
+		margin-right: 2rem;
+		align-items: center;
+		& > p {
+			margin-bottom: 0;
+			margin-left: 1rem;
+		}
+		& > label {
+			font-weight: bold;
+			margin-bottom: 0 !important;
+			margin-right: 1rem;
+		}
+		& > input {
+			font-weight: 100;
+		}
+	}
+	&__user {
+		margin-top: 2rem;
+		& > input {
+			border-radius: 0.3rem;
+			margin: 1rem 1rem;
+			width: 12rem;
+			height: 2rem;
+			padding: 1rem;
+		}
+	}
+	&__box {
+		margin-top: 3rem;
+		& > h3 {
+			font-weight: 100;
+			margin-bottom: 1.5rem;
+		}
+	}
+}
+.reservation h2 {
+	margin-top: 5rem;
+	font-weight: 600;
+	font-size: 3rem;
+}
+.reservation > p {
+	display: inline;
+	margin-right: 20rem;
+}
+.reservation img {
+	height: 2rem;
+	width: 2rem;
+}
+.booknow {
+	width: 5rem;
+}
+.searchinfra {
+	position: relative;
+	left: 11rem;
+	margin-top: 2rem;
+	height: 2.5rem;
+	width: 12rem;
+	font-size: 14px;
+	border-radius: 5px;
+	padding: 1rem;
+}
